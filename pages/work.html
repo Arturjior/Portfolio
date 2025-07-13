@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Portfolio</title>
+    <!-- Poner Icono en Pestaña -->
+    <link rel="shortcut icon" href="../images/codificacion.png" type="image/x-icon" />
+    <!-- Cambiar Tipo de Letra -->
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Cabecera -->
+    <header class="header">
+      <h1>Work</h1>
+      <button id="menu-toggle" class="btn-menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="topbar">
+        <ul>
+          <li>
+            <a href="../index.html"><i class="fa-solid fa-house"></i> Home</a>
+          </li>
+          <li>
+            <a href="work.html"><i class="fa-solid fa-folder"></i> Work</a>
+          </li>
+          <li>
+            <a href="about.html"><i class="fa-solid fa-circle-info"></i> About</a>
+          </li>
+          <li>
+            <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button id="option-toggle" class="btn-option">
+        <i class="fa-solid fa-gear"></i>
+      </button>
+      <div class="language-container">
+        <button id="language-toggle" class="btn-language">
+          <i id="language-icon" class="fa-solid fa-language"></i>
+        </button>
+        <div id="language-options">
+          <button class="language-option" data-lang="English"><img class="flag" src="../images/estados-unidos.png" alt="estados-unidos"><span id="language-en">English</span></button>
+          <hr>
+          <button class="language-option" data-lang="Spanish"><img class="flag" src="../images/espana.png" alt="espana"><span id="language-es">Spanish</span></button>
+        </div>
+      </div>
+      <button id="theme-toggle" class="btn-day-night">
+        <i id="icon" class="fa-solid fa-moon"></i>
+      </button>
+    </header>
+
+    <!-- Principal -->
+    <main class="main">
+      <div class="work-container">
+        <p id="work-introduction">I've worked in diverse professional environments ranging from mobile app development to technical user support, combining technical expertise with a
+          human-centered approach, always with a practical mindset and results-oriented focus.
+        </p>
+        <div class="container-work">
+          <div class="work-columns">
+            <h3 class="portfolio" id="portfolio">PORTFOLIO</h3>
+            <p id="work-portfolio">Welcome to my portfolio. Here you'll find a sample of my works, a personal section so you can get to know me better, 
+              and a contact section if you are interested in connecting or collaborating.</p>
+          </div>
+          <div class="work-columns">
+            <h3 class="rk-acm">RK ACM Gestion Inmobiliaria</h3>
+            <p id="work-rk">Development of a mobile application for Android using Java and Google Firebase. 
+              Implementation of features such as authentication and data storage. Collaboration in the identification 
+              and resolution of technical issues.</p>
+          </div>
+          <div class="work-columns">
+            <h3 class="beep">BEEP</h3>
+            <p id="work-beep">Customer service and technical support. Assembly and maintenance of computer equipment. 
+              Management of backup, cloning, and recovery of hard drives.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Pie de Pagina -->
+    <footer id="work-footer" class="footer">
+      <p>© 2025 Arturo Jimenez</p>
+    </footer>
+
+    <!-- Script de Modo Oscuro y Modo Claro -->
+    <script src="../script/dark-light-script.js"></script>
+
+    <!-- Script de Cambio de Idioma -->
+    <script src="../script/language-script.js"></script>
+
+    <!-- Script para Desplegar Menu en Version Movil -->
+    <script src="../script/menu-mobile-script.js"></script>
+
+    <!-- Script para Desplegar Opciones en Version Movil -->
+    <script src="../script/option-mobile-script.js"></script>
+
+    <!-- Script de Font Awesone -->
+    <script src="https://kit.fontawesome.com/193c30afff.js" crossorigin="anonymous"></script>
+  </body>
+</html>

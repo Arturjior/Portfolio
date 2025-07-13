@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Portfolio</title>
+    <!-- Poner Icono en Pestaña -->
+    <link rel="shortcut icon" href="images/codificacion.png" type="image/x-icon" />
+    <!-- Cambiar Tipo de Letra -->
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Cabecera -->
+    <header class="header">
+      <h1>Home</h1>
+      <button id="menu-toggle" class="btn-menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="topbar">
+        <ul>
+          <li>
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+          </li>
+          <li>
+            <a href="pages/work.html"><i class="fa-solid fa-folder"></i> Work</a>
+          </li>
+          <li>
+            <a href="pages/about.html"><i class="fa-solid fa-circle-info"></i> About</a>
+          </li>
+          <li>
+            <a href="pages/contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button id="option-toggle" class="btn-option">
+        <i class="fa-solid fa-gear"></i>
+      </button>
+      <div class="language-container">
+        <button id="language-toggle" class="btn-language">
+          <i id="language-icon" class="fa-solid fa-language"></i>
+        </button>
+        <div id="language-options">
+          <button class="language-option" data-lang="English"><img class="flag" src="images/estados-unidos.png" alt="estados-unidos"><span id="language-en">English</span></button>
+          <hr>
+          <button class="language-option" data-lang="Spanish"><img class="flag" src="images/espana.png" alt="espana"><span id="language-es">Spanish</span></button>
+        </div>
+      </div>
+      <button id="theme-toggle" class="btn-day-night">
+        <i id="icon" class="fa-solid fa-moon"></i>
+      </button>
+    </header>
+
+    <!-- Principal -->
+    <main class="main">
+      <div class="main-container">
+        <div class="container-main">
+          <img class="logo" src="images/AJ-cyberpunk.png" alt="logo">
+          <h2 id="greeting">Hi!, <span id="greeting-name">i'm Arturo</span>.</h2>
+        </div>
+        <p id="introduction">Welcome to **<b>JIMENZAI</b>**, where ideas germinate in code.
+          <br>
+          I grow with every project, learn with every line, and explore without limits.
+        </p>
+        <div class="icon-github-linkedin">
+          <a href="https://github.com/Arturjior" title="Github" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/arturo-jo" title="Linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Pie de Pagina -->
+    <footer class="footer">
+      <p>© 2025 Arturo Jimenez</p>
+    </footer>
+
+    <!-- Script de Modo Oscuro y Modo Claro -->
+    <script src="script/dark-light-script.js"></script>
+
+    <!-- Script de Cambio de Idioma -->
+    <script src="script/language-script.js"></script>
+
+    <!-- Script para Desplegar Menu en Version Movil -->
+    <script src="script/menu-mobile-script.js"></script>
+
+    <!-- Script para Desplegar Opciones en Version Movil -->
+    <script src="script/option-mobile-script.js"></script>
+
+    <!-- Script de Font Awesone -->
+    <script src="https://kit.fontawesome.com/193c30afff.js" crossorigin="anonymous"></script>
+  </body>
+</html>

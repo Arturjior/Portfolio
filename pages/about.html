@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Portfolio</title>
+    <!-- Poner Icono en Pestaña -->
+    <link rel="shortcut icon" href="../images/codificacion.png" type="image/x-icon" />
+    <!-- Cambiar Tipo de Letra -->
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Cabecera -->
+    <header class="header">
+      <h1>About me</h1>
+      <button id="menu-toggle" class="btn-menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="topbar">
+        <ul>
+          <li>
+            <a href="../index.html"><i class="fa-solid fa-house"></i> Home</a>
+          </li>
+          <li>
+            <a href="work.html"><i class="fa-solid fa-folder"></i> Work</a>
+          </li>
+          <li>
+            <a href="about.html"><i class="fa-solid fa-circle-info"></i> About</a>
+          </li>
+          <li>
+            <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button id="option-toggle" class="btn-option">
+        <i class="fa-solid fa-gear"></i>
+      </button>
+      <div class="language-container">
+        <button id="language-toggle" class="btn-language">
+          <i id="language-icon" class="fa-solid fa-language"></i>
+        </button>
+        <div id="language-options">
+          <button class="language-option" data-lang="English"><img class="flag" src="../images/estados-unidos.png" alt="estados-unidos"><span id="language-en">English</span></button>
+          <hr>
+          <button class="language-option" data-lang="Spanish"><img class="flag" src="../images/espana.png" alt="espana"><span id="language-es">Spanish</span></button>
+        </div>
+      </div>
+      <button id="theme-toggle" class="btn-day-night">
+        <i id="icon" class="fa-solid fa-moon"></i>
+      </button>
+    </header>
+
+    <!-- Principal -->
+    <main class="main">
+      <div class="about-container">
+        <h2><span id="about-name">Arturo Jimenez</span></h2>
+        <hr>
+        <p id="about-text-1">Technician in <b id="about-formation-1">Multiplatform Application Development</b> and <b id="about-formation-2">Microcomputer Systems and Networks</b>,
+          with experience in developing Android mobile applications using Java and Google Firebase.</p>
+        <p id="about-text-2">With experience in implementing key features such as authentication and data storage,
+          as well as identifying and resolving technical issues.</p>
+        <p id="about-text-3">I also have experience in customer service, technical support, and computer equipment maintance,
+          including assembly tasks, backup management, and disk recovery. If there's one thing that
+          characterizes me, it's my passion for technology, my ability to adapt, and my commitment
+          to teamwork.
+        </p>
+        <h3 id="about-education-title">EDUCATION</h3>
+        <ul class="barra">
+          <li>
+            <p id="about-education-1">Advanced Degree in Multiplatform Application Development
+              <br>
+              (2024 | IES Las Fuentezuelas)
+            </p>
+          </li>
+          <li>
+            <p id="about-education-2">Associate Degree in Microcomputer Systems and Networks
+              <br>
+              (2022 | IES Peña del Aguila)
+            </p>
+          </li>
+        </ul>
+        <h3 id="about-interests-title">OTHER INTERESTS</h3>
+        <ul class="interests">
+          <li id="about-videogames">Videogames</li>
+          <li id="about-anime">Anime</li>
+          <li id="about-app">Applications development</li>
+          <li id="about-franchise">Forza Horizon franchise</li>
+          <li id="about-manga">Manga: Don't Toy with Me, Miss Nagatoro <i class="fa-solid fa-heart"></i></li>
+        </ul>
+      </div>
+    </main>
+
+    <!-- Pie de Pagina -->
+    <footer id="about-footer" class="footer">
+      <p>© 2025 Arturo Jimenez</p>
+    </footer>
+
+    <!-- Script de Modo Oscuro y Modo Claro -->
+    <script src="../script/dark-light-script.js"></script>
+
+    <!-- Script de Cambio de Idioma -->
+    <script src="../script/language-script.js"></script>
+
+    <!-- Script para Desplegar Menu en Version Movil -->
+    <script src="../script/menu-mobile-script.js"></script>
+
+    <!-- Script para Desplegar Opciones en Version Movil -->
+    <script src="../script/option-mobile-script.js"></script>
+
+    <!-- Script de Font Awesone -->
+    <script src="https://kit.fontawesome.com/193c30afff.js" crossorigin="anonymous"></script>
+  </body>
+</html>
